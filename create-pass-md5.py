@@ -15,6 +15,7 @@ def gerar_senha(tamanho=20):
     senha += random.choice(letras_minusculas)
     senha += random.choice(numeros)
     senha += random.choice(caracteres_especiais)
+    # senha += random.choice(todos_caracteres)
 
     # Preencher o restante da senha
     for _ in range(4, tamanho):
